@@ -9,4 +9,10 @@ annotations:
         y: 670.5
 name: NewScenario
 description: Description for NewScenario
-children: []
+children:
+  - id: 9b07f40d-79f7-295d-5ab4-087def02ef3a
+    type: state
+  - id: 090d8c33-916b-ad4a-2ff4-544db502e6a8
+    type: state
+  - id: e8732485-4e60-bdbe-da9d-d6b931d8a3ef
+    type: state
