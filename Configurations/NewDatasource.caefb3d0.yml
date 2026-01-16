@@ -1,0 +1,12 @@
+id: 0c0bb0b0-b8a6-f4ca-b2f3-f33f11c22a80
+type: datasource
+interactions: []
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      6a61695f-9083-42b1-ab8d-d3439fc86194:
+        x: -157
+        y: 50.83333206176758
+name: NewDatasource
+description: Description for NewDatasource

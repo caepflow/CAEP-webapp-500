@@ -7,20 +7,27 @@ mode: ReadWrite
 includeAllFields: true
 allowPersistence: true
 fields:
-- name: invoiceRows
-  type: InvoiceRowEntity
-  isArray: true
-  isOptional: true
-  includeAllFields: true
-  allowPersistence: true
-  fields:
-  - name: product
-    type: ProductEntity
-    isArray: false
-    includeAllFields: false
+  - name: invoiceRows
+    type: InvoiceRowEntity
+    isArray: true
     isOptional: true
+    includeAllFields: true
+    allowPersistence: true
     fields:
-    - name: name
-    - name: description
-    - name: suggestedPrice
-    - name: availableItems
+      - name: product
+        type: ProductEntity
+        isArray: false
+        includeAllFields: false
+        isOptional: true
+        fields:
+          - name: name
+          - name: description
+          - name: suggestedPrice
+          - name: availableItems
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      6a61695f-9083-42b1-ab8d-d3439fc86194:
+        x: 90
+        y: 58

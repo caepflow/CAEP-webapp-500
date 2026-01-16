@@ -17,3 +17,13 @@ transitions:
     name: browse-users
   - target: e8732485-4e60-bdbe-da9d-d6b931d8a3ef
     name: browse-users
+  - target: 225872e5-9f31-43b4-cc6c-d0c9087a3847
+    name: browse
+pageTemplate:
+  name: start
+  description: Description for new-state
+  template: quick-search
+  datasource: users
+children:
+  - id: 144afe22-bab8-4a24-9347-9cc450f414da
+    type: page

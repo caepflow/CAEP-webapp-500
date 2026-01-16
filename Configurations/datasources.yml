@@ -1,7 +1,17 @@
 id: 6a61695f-9083-42b1-ab8d-d3439fc86194
 type: datasources
 name: Datasources
-description: Datasources let you define how your application interacts with data storage systems.
+description: Datasources let you define how your application interacts with data
+  storage systems.
 children:
-- id: b65a9214-7a4d-4a18-8a25-14292ce31460
-  type: datasource
+  - id: b65a9214-7a4d-4a18-8a25-14292ce31460
+    type: datasource
+  - id: 0c0bb0b0-b8a6-f4ca-b2f3-f33f11c22a80
+    type: datasource
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      16d078b1-f6c0-438a-8a62-b3fe7a6ba317:
+        x: 700
+        y: 420.5
