@@ -10,12 +10,13 @@ annotations:
         y: 98.6683130169859
 name: browse-users
 description: Description for new-state
+transitions:
+  - target: ade9f6bf-cf26-c1ce-8cb7-55b3b82588a3
+    name: edit-user
 page:
-  id: 77cd0969-8190-4d82-9877-abc989c9a79a
+  type: formDesigner
+  id: f1401aa3-43e4-4932-b0c6-25c49a7a319c
   name: browse-users
   description: Description for new-state
   template: quick-search
   datasource: users
-transitions:
-  - target: ade9f6bf-cf26-c1ce-8cb7-55b3b82588a3
-    name: edit-user
