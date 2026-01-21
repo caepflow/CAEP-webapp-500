@@ -6,8 +6,8 @@ annotations:
     name: position
     value:
       d1b34c61-b1ab-4b98-bf56-e2a2372d5c26:
-        x: 1093.6138613861385
-        y: 189.6683130169859
+        x: 983.1138613861385
+        y: 98.6683130169859
 name: browse-users
 description: Description for new-state
 page:
@@ -16,3 +16,6 @@ page:
   description: Description for new-state
   template: quick-search
   datasource: users
+transitions:
+  - target: ade9f6bf-cf26-c1ce-8cb7-55b3b82588a3
+    name: edit-user

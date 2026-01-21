@@ -1,0 +1,16 @@
+id: cd2668bf-bc20-2a42-3d19-b18bd4230b65
+type: state
+interactions: []
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      d1b34c61-b1ab-4b98-bf56-e2a2372d5c26:
+        x: 804.1138613861385
+        y: -69.6650209521303
+name: start
+description: Description for new-state
+start: true
+transitions:
+  - target: 3b96c610-8202-ddb8-82b5-29e5563e03cc
+    name: browse-users

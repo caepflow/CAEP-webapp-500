@@ -1,0 +1,18 @@
+id: ade9f6bf-cf26-c1ce-8cb7-55b3b82588a3
+type: state
+interactions: []
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      d1b34c61-b1ab-4b98-bf56-e2a2372d5c26:
+        x: 1362.6138613861385
+        y: 102.3349790478697
+name: edit-user
+description: Description for new-state
+page:
+  id: 41e5ee68-47e7-4d1a-940b-ab71cb06b20e
+  name: edit-user
+  description: Description for new-state
+  template: ai
+  datasource: users
