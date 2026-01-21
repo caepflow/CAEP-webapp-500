@@ -1,0 +1,18 @@
+id: 3b96c610-8202-ddb8-82b5-29e5563e03cc
+type: state
+interactions: []
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      d1b34c61-b1ab-4b98-bf56-e2a2372d5c26:
+        x: 1093.6138613861385
+        y: 189.6683130169859
+name: browse-users
+description: Description for new-state
+page:
+  id: 77cd0969-8190-4d82-9877-abc989c9a79a
+  name: browse-users
+  description: Description for new-state
+  template: quick-search
+  datasource: users

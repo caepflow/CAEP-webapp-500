@@ -6,8 +6,8 @@ annotations:
     name: position
     value:
       d1b34c61-b1ab-4b98-bf56-e2a2372d5c26:
-        x: 1087.1138613861385
-        y: 107.33498095521833
+        x: 1098.6138613861385
+        y: -28.665019044781673
 name: start
 description: Description for new-state
 start: true
@@ -18,6 +18,8 @@ transitions:
   - target: e8732485-4e60-bdbe-da9d-d6b931d8a3ef
     name: browse-users
   - target: 225872e5-9f31-43b4-cc6c-d0c9087a3847
+    name: browse
+  - target: 3b96c610-8202-ddb8-82b5-29e5563e03cc
     name: browse
 pageTemplate:
   name: start
